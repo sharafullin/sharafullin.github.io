@@ -1,3 +1,21 @@
 title: Welkome to me
 description: Welkome to me
 google_analytics:
+comments:
+  provider: "staticman"
+  allowedFields: ["name", "email", "url", "message"]
+  branch: "master"
+  commitMessage: "Add Staticman data"
+  filename: "entry{@timestamp}"
+  format: "yaml"
+  generatedFields:
+  date:
+    type: date
+    options:
+      format: "timestamp-seconds"
+  moderation: true
+  name: "sharafullin.github.io"
+  path: "_data/comments/{options.slug}"
+  requiredFields: ["name", "email", "message"]
+  transforms:
+    email: md5
