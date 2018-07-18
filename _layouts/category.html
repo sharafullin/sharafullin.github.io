@@ -2,8 +2,18 @@
 layout: page
 ---
 
+blogs
+
 {% for post in site.categories[page.category] %}
     <a href="{{ post.url | absolute_url }}">
       {{ post.title }}
+    </a>
+{% endfor %}
+
+tests
+
+{% for test in site.categories[page.category] %}
+    <a href="{{ test.url | absolute_url }}">
+      {{ test.title }}
     </a>
 {% endfor %}

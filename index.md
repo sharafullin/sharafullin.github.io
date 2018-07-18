@@ -43,3 +43,13 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     </li>
   {% endfor %}
 </ul>
+
+tests:
+
+<ul>
+  {% for test in site.tests %}
+    <li>
+      <a href="{{ test.url }}">{{ test.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
