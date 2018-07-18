@@ -46,7 +46,7 @@
             </a>
           {% endif %}
 
-          {% for post in site.posts %}
+          {% for post in site.site.categories["terraform"] %}
             <br />
             <a href="{{ post.url }}" >
               {{post.title}}
