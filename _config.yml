@@ -1,21 +1,3 @@
 title: Andrei Sharafullin
 description: Andrei Sharafullin is a programmer, passionate about new technologies, Cloud and Agile development.
 google_analytics:
-comments:
-  provider: "staticman"
-  allowedFields: ["name", "email", "url", "message"]
-  branch: "master"
-  commitMessage: "Add Staticman data"
-  filename: "entry{@timestamp}"
-  format: "yaml"
-  generatedFields:
-  date:
-    type: date
-    options:
-      format: "timestamp-seconds"
-  moderation: true
-  name: "sharafullin.github.io"
-  path: "_data/comments/{options.slug}"
-  requiredFields: ["name", "email", "message"]
-  transforms:
-    email: md5
