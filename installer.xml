@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config version="1.0">
+	<features>
+		<feature name="FileScan" action="1"/>
+		<feature name="UserControl" action="1"/>
+		<feature name="Antiphishing" action="1"/>
+		<feature name="Firewall" action="1"/>
+		<feature name="UpdateServer" action="1"/>
+		<feature name="BehavioralScan" action="1"/>
+		<feature name="TrafficScan" action="1"/>
+		<feature name="MailServers" action="0"/>
+		<feature name="DataLossPrevention" action="1"/>
+		<feature name="ApplicationControl" action="0"/>
+		<feature name="PowerUser" action="1"/>
+		<feature name="MailServersForSandboxAnalyser" action="0"/> 
+		<feature name="EventCorrelator" action="0"/> 
+		<feature name="VolumeEncryption" action="0"/> 
+		<feature name="PatchManagement" action="0"/>
+		<feature name="PatchManagementServer" action="0"/> 
+	</features>
+	
+	<serverAddress strVar="EpagServer">https://cloudgz-ecs.gravityzone.bitdefender.com/hydra</serverAddress>
+	<customerId strVar="EpagCustId">52f1254813a40ab02761416b</customerId>
+	<connTime strVar="EpagConnTime">1800</connTime>
+	<userId strVar="EpagUserId">53078bc0518b09623e8b4894</userId>
+
+	<downloadUrl strVar="DownloadUrl"><![CDATA[https://cloudgz-ecs.gravityzone.bitdefender.com/Packages/BSTWIN/0]]></downloadUrl>
+
+	<installPath strVar="InstallDir"><![CDATA[%PROGRAMFILES%]]></installPath>
+
+	<localization strVar="localization">en-US</localization>
+	<arrakisUpdateServer strVar="ArrakisUpdateServer">update.cloud.2d585.cdn.bitdefender.net:7074</arrakisUpdateServer>
+
+	<rebootIfNeeded var="RebootIfNeeded">0</rebootIfNeeded>
+	<forceResumeAfterReboot var="ForceResumeAfterReboot">0</forceResumeAfterReboot>
+
+	<disableScanBeforeInstall var="DisableScanBeforeInstall">1</disableScanBeforeInstall>
+	<encryptedPass>g8EjL3AIJpFhVqNa9j6xq44n06Hq0zm1b6mkbUGqtFA=</encryptedPass>
+
+	<remoteScanSettings>
+		<servers>
+			
+		</servers>
+		<enableRemoteScan>0</enableRemoteScan>
+	</remoteScanSettings>
+
+	<scanType strVar="ScanType">full</scanType>
+
+	<scanTypeDetection>
+		<detectEC2 scanType="light" enableRemoteScan="1" detectEC2Url="http://169.254.169.254/latest/meta-data/instance-id">0</detectEC2>
+		<detectVM scanType="light" enableRemoteScan="0">1</detectVM>
+		<detectSlowMachine scanType="light" enableRemoteScan="0">1</detectSlowMachine>
+
+	</scanTypeDetection>
+
+	<appId var="AppIdProduct">12</appId>
+	<productName strVar="ProductName"><![CDATA[Bitdefender Endpoint Security Tools]]></productName>
+	<ArrakisProductName strVar="ArrakisProductName"><![CDATA[Endpoint Update Server]]></ArrakisProductName>
+
+	<competitorRemoval>
+		<execute mode= "always" /> 
+		<useExternal value="yes" />
+		<exclude>
+            <!--Ex: < product name="" /> -->
+		</exclude>
+	</competitorRemoval>
+
+	<trackingInfo>
+		<key>26SuZaIK83MkicK8vj7kyLXx3n/nh7F6icUfVixkLIY=</key>
+		<partnerId>84</partnerId>
+		<productId>2733</productId>
+	</trackingInfo>
+	
+	<keepSettings var="KeepSettings">1</keepSettings>
+	<keepFeatures var="KeepFeatures">0</keepFeatures>
+
+	<proxyServer strVar="ProxyServer"></proxyServer>
+
+	<proxyPort strVar="ProxyPort"></proxyPort>
+
+	<proxyUser strVar="ProxyUser"></proxyUser>
+
+	<proxyPass strVar="ProxyPass"></proxyPass>
+
+	<installLink strVar="InstallLink"></installLink>
+
+	<rebootAfterEachRemovedProduct var="RebootAfterEachRemovedProduct">0</rebootAfterEachRemovedProduct>
+
+	<epagCustomField strVar="EpagCustomField"><![CDATA[[]]]></epagCustomField> 
+
+	<statusLink strVar="StatusLink">https://cloudgz-ecs.gravityzone.bitdefender.com/tasks/state</statusLink>
+
+	<submitDumps var="SubmitDumps">1</submitDumps>
+	<submitQuar var="SubmitQuar">1</submitQuar>
+	<submitQuarInterval var="SubmitQuarInterval">3600</submitQuarInterval>
+	<submitSuspicious var="SubmitSuspicious">1</submitSuspicious>
+
+</config>
