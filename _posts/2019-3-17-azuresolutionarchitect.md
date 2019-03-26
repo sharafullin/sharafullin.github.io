@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Azure Solutions Architect"
+title:      "Welcome to Terraform!"
 date:       2019-3-17 16:16:01 -0600
 categories: [Azure Solutions Architect] Azure
 ---
