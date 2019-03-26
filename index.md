@@ -9,6 +9,5 @@ categories: terraform
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
-    {{ post.content }}
   {% endfor %}
 </ul>
