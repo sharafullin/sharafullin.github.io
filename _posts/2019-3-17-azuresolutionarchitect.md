@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Welcome to Terraform!"
+title:      "Azure Solution Architect"
 date:       2019-3-17 16:16:01 -0600
-categories: [Azure Solutions Architect] Azure
+categories: Azure
 ---
 
 # Azure Solutions Architect Expert
