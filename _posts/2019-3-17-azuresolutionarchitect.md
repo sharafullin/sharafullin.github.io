@@ -1,10 +1,11 @@
 ---
 layout:     post
-title:      "Welcome to Terraform!"
-date:       2019-3-16 16:16:01 -0600
-categories: draft
+title:      "Welcome to Terraform2!"
+date:       2019-3-17 16:16:01 -0600
+categories: Azure
 ---
 
-## draft
+# Azure Solutions Architect Expert
 
-Here some text about terraform
+<img src="/assets/2019-03/msexpert.png" style="float:left;height:250px"> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
+(/assets/2019-03/msexpert.png)
