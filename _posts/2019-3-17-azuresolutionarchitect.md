@@ -2,7 +2,7 @@
 layout:     post
 title:      "Azure Solution Architect"
 date:       2019-3-17 16:16:01 -0600
-categories: Azure
+categories: [Azure test]
 ---
 
 # Azure Solutions Architect Expert
