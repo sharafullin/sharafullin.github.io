@@ -7,5 +7,9 @@ categories: [Azure Solution Architect]
 
 # Azure Solutions Architect Expert
 
+some test
+
+some more test
+
 <img src="/assets/2019-03/msexpert.png" style="float:left;height:250px"> some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text some text 
 (/assets/2019-03/msexpert.png)
