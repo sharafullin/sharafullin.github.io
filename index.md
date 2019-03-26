@@ -7,7 +7,8 @@ categories: terraform
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">1{{ post.title }}3</a>
     </li>
+    {{ post.content }}
   {% endfor %}
 </ul>
