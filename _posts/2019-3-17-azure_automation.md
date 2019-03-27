@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Automated udpates for IaaS VMs with Azure Automation"
+title:      "Azure Automation"
 date:       2019-3-17 16:16:01 -0600
-categories: [Azure Automation] IaaS Updates
+categories: IaaS Updates
 ---
 
 Running IaaS VMs gives extra control and flexibility which comes with cost. Your organisation needs to spend extra effort to make that environment available, scalable and secure. But if that is the only way then it is a good idea to automate as much work as possible. Let's have a look how to automate installation of windows updates.
